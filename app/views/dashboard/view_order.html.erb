@@ -1,0 +1,9 @@
+<h3><%= @order.subject %></h3>
+<p>Below you will find comments and correspondence related to work order <%= @order.id %></p>
+<table>
+ <tr><td>Status:<%= @order.status %></td></tr>
+ <% @order.transactions.each do |transaction| %>
+ <tr><td><%= transaction.type_as_string %></td></tr>
+ <tr><td><%= transaction.content %></td></tr>
+ <% end %>
+</table>

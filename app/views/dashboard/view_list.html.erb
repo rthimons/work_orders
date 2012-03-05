@@ -1,0 +1,8 @@
+<h3><%= @list.name_of_list %></h3>
+<table>
+<% @list.orders.each do |order| %>
+<tr>
+  <td><%= link_to(order.subject, "/dashboard/view_order?id=#{order.id}") %></td>
+</tr>
+<% end %>
+</table> 

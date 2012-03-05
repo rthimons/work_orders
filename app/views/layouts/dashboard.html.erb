@@ -1,0 +1,22 @@
+<html>
+<head>
+  <%= stylesheet_link_tag "dashboard", :media => "all" %>
+  <title>User Dashboard</title>
+</head>
+<body>
+  <div id="body">
+    <div id="banner">
+      <%= image_tag("banner-logo.jpg") %>
+    </div>
+    <div id="sidebar">
+      <table>
+      <tr><td><%= link_to("Home", "/") %></td></tr>
+      <tr><td><%= link_to("Lists", "/lists") %></td></tr>
+      <tr><td><%= link_to("Orders", "/orders") %></td</tr>
+      </table>
+    </div>
+    <div id="content">
+    <%= yield %>
+    </div>
+  </div>
+</body>
