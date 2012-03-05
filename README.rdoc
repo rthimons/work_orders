@@ -1,8 +1,8 @@
-<h2>Work orders</h2>
-Work orders is a web application whereby an individual or organization can keep tabs
-on work orders that clients have made. When complete it will help the end-user watch things
-like status, progress, and any correspondence. 
+_== Work orders
+-Work orders is a web application whereby an individual or organization can keep tabs
+-on work orders that clients have made. When complete it will help the end-user watch things
+-like status, progress, and any correspondence. 
 
-There are many other systems for doing this in existence. This app is being built mainy
-as a method for learning ruby on rails more thoroughly.
+-There are many other systems for doing this in existence. This app is being built mainy
+-as a method for learning ruby on rails more thoroughly.
 
